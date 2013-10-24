@@ -2,6 +2,7 @@ Full implementations (or nearly so) of GNU utils.
 
 These should be *pure Perl*, requiring no XS extensions to work properly.
 
+* [LOTS](https://metacpan.org/release/ppt) — Perl Power Tools: Unix Reconstruction Project
 * [tar](http://perldoc.perl.org/ptar.html) (ptar) — builtin
 * [find](http://perldoc.perl.org/find2perl.html) (find2perl) — builtin
 * [tee](https://metacpan.org/pod/Tee) (ptee) — by DAGOLDEN / David Golden
