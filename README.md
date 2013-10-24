@@ -10,3 +10,5 @@ The motivation behind this is:
 * Perl is very widely available.  If you look at [what comes on a base install of different OS's](http://www.cpan.org/ports/binaries.html#aix), Perl is more common than Bash.  While Python is more modern and more preferable, Perl is old and established.
 
 This project includes both more fully-developed Perl alternatives, as well as one-liner snippets that provide the core functionality, for those who are comfortable with Perl one-liners.  The latter are indicated by the word "snippet".
+
+Everything in this project should be PURE Perl (ie. no XS required, unless it's included in the core Perl).  This allows these tools to be installed by any user.
