@@ -2,7 +2,7 @@ Full implementations (or nearly so) of GNU utils.
 
 These should be *pure Perl*, requiring no XS extensions to work properly.
 
-* [LOTS](https://metacpan.org/release/ppt) — Perl Power Tools: Unix Reconstruction Project
+* [LOTS](https://github.com/briandfoy/PerlPowerTools) — Perl Power Tools: Unix Reconstruction Project
 * [tar](http://perldoc.perl.org/ptar.html) (ptar) — builtin
 * grep  ([tcgrep](https://metacpan.org/pod/release/CWEST/ppt-0.14/html/commands/grep/tcgrep)) — by Tom Christiansen and others (touted as more of a work-alike than other grep rewrites)
 * [find](http://perldoc.perl.org/find2perl.html) (find2perl) — builtin
