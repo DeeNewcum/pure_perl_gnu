@@ -9,7 +9,8 @@ Ideally they would be flag-for-flag compatible (or close to it) with the GNU ver
     * PerlPowerTools' [tar](https://github.com/briandfoy/PerlPowerTools/blob/master/bin/tar)
 * grep
     * if you merely want Perl-style regexps and don't mind compiled binaries, use [`grep -P`](https://man7.org/linux/man-pages/man1/grep.1.html#:~:text=%2DP%2C-,%2D%2Dperl%2Dregexp,-Interpret%20I%3CPATTERNS) ([version history](https://git.savannah.gnu.org/cgit/grep.git/log/src/pcresearch.c)) or [pcre2grep](https://www.pcre.org/current/doc/html/index.html)
-    * [tcgrep](https://github.com/briandfoy/PerlPowerTools/blob/master/bin/grep) — by Tom Christiansen and others (touted as more of a work-alike than other grep rewrites)
+    * tcgrep — by Tom Christiansen and others (touted as more of a work-alike than other grep rewrites) [(background)](https://www.johndcook.com/blog/2021/03/03/tcgrep/)
+        * source available at two different places: [metacpan.org/dist/Unicode-Tussle/](https://metacpan.org/dist/Unicode-Tussle/source/script/tcgrep) and [github.com/briandfoy/PerlPowerTools/](https://github.com/briandfoy/PerlPowerTools/blob/master/bin/grep) (the latter doesn't work as well for me)
     * [App::Gre](https://metacpan.org/pod/App::Gre)
     * [ack](https://beyondgrep.com/) — not flag-for-flag compatible, but it does provide some additional features that are very useful
 * find
